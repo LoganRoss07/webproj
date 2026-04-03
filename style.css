@@ -13,3 +13,30 @@
     background-color: #212529;
     color: white;
 }
+
+/* Make all cards same height */
+.movie-card {
+    width: 18rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Make images uniform */
+.movie-card img {
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Make card body stretch evenly */
+.movie-card .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Optional: align button at bottom */
+.movie-card .btn {
+    margin-top: auto;
+}

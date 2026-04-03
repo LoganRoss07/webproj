@@ -1,0 +1,15 @@
+/* Movie card styling */
+.movie-card {
+    width: 18rem;
+}
+
+/* Movie images in ratings page */
+.rated-movie-img {
+    max-height: 100px;
+}
+
+/* Optional: custom dark card */
+.custom-dark-card {
+    background-color: #212529;
+    color: white;
+}

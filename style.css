@@ -40,3 +40,23 @@
 .movie-card .btn {
     margin-top: auto;
 }
+
+/* Search card matches navbar */
+.search-card {
+    background-color: #212529; /* same as navbar bg-dark */
+    color: #ffffff;
+    border: none;
+}
+
+/* Fix input + dropdown inside it */
+.search-card input,
+.search-card select {
+    background-color: #2c3034;
+    color: #ffffff;
+    border: 1px solid #444;
+}
+
+/* Placeholder text */
+.search-card input::placeholder {
+    color: #bbbbbb;
+}

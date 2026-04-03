@@ -40,3 +40,65 @@
 .movie-card .btn {
     margin-top: auto;
 }
+
+/* Page background */
+body {
+  background-color: #141414;
+  color: #ffffff;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #000000 !important;
+}
+
+/* Section cards (like stats + movie list) */
+.section-card {
+  background-color: #1f1f1f;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* Movie cards */
+.movie-card {
+  background-color: #2a2a2a;
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect */
+.movie-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+
+/* Text inside cards */
+.card h5, 
+.card p {
+  color: #ffffff;
+}
+
+/* Rating boxes */
+.rating-box {
+  background-color: #333;
+  border-radius: 8px;
+  padding: 10px;
+  color: #fff;
+}
+
+/* Highlight numbers */
+h4 {
+  color: #e50914; /* Netflix red */
+}
+
+/* Buttons */
+.btn-dark {
+  background-color: #e50914;
+  border: none;
+}
+
+.btn-dark:hover {
+  background-color: #b20710;
+}

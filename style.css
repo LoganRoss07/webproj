@@ -41,22 +41,32 @@
     margin-top: auto;
 }
 
-/* Search card matches navbar */
+/* Force the whole search card to match navbar */
 .search-card {
-    background-color: #212529; /* same as navbar bg-dark */
-    color: #ffffff;
-    border: none;
+    background-color: #212529 !important;
+    color: #ffffff !important;
+    border: none !important;
 }
 
-/* Fix input + dropdown inside it */
+/* VERY IMPORTANT: override Bootstrap card layers */
+.search-card.card {
+    background-color: #212529 !important;
+}
+
+/* Fix anything inside the card */
+.search-card * {
+    color: #ffffff;
+}
+
+/* Inputs */
 .search-card input,
 .search-card select {
-    background-color: #2c3034;
-    color: #ffffff;
-    border: 1px solid #444;
+    background-color: #2c3034 !important;
+    color: #ffffff !important;
+    border: 1px solid #444 !important;
 }
 
-/* Placeholder text */
+/* Placeholder */
 .search-card input::placeholder {
-    color: #bbbbbb;
+    color: #bbbbbb !important;
 }

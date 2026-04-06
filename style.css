@@ -4,3 +4,16 @@ body{
 
 .card{
   bg=secondary;}
+
+.card-title {
+  min-height: 48px;
+}
+
+.card-text {
+  margin-bottom: 5px;
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
